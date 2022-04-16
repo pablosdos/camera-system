@@ -52,66 +52,19 @@ You can also use the menu on the left to quickly skip over sections.
 
 .. toctree::
     :hidden:
-    :caption: Quick References
+    :caption: Deployment
 
-    quick-references/faq
-    quick-references/client-reference
-    quick-references/events-reference
-    quick-references/objects-reference
+    deployment/device
 
 .. toctree::
     :hidden:
     :caption: Concepts
 
-    concepts/strings
-    concepts/entities
-    concepts/chats-vs-channels
-    concepts/updates
-    concepts/sessions
-    concepts/full-api
-    concepts/errors
-    concepts/botapi-vs-mtproto
-    concepts/asyncio
-
-.. toctree::
-    :hidden:
-    :caption: Full API Examples
-
-    examples/word-of-warning
-    examples/chats-and-channels
-    examples/users
-    examples/working-with-messages
+    concepts/api-driven
+    concepts/edge
 
 .. toctree::
     :hidden:
     :caption: Developing
 
-    developing/philosophy.rst
-    developing/test-servers.rst
-    developing/project-structure.rst
-    developing/coding-style.rst
-    developing/testing.rst
-    developing/understanding-the-type-language.rst
-    developing/tips-for-porting-the-project.rst
-    developing/telegram-api-in-other-languages.rst
-
-.. toctree::
-    :hidden:
-    :caption: Miscellaneous
-
-    misc/changelog
-    misc/wall-of-shame.rst
-    misc/compatibility-and-convenience
-
-.. toctree::
-    :hidden:
-    :caption: Telethon Modules
-
-    modules/client
-    modules/events
-    modules/custom
-    modules/utils
-    modules/errors
-    modules/sessions
-    modules/network
-    modules/helpers
+    developing/AWS-rollout.rst
