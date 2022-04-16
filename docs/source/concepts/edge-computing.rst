@@ -1,7 +1,7 @@
-.. _chats-channels:
+.. _edge-computing:
 
 =================
-Edge
+Edge Computing
 =================
 
 Telegram's raw API can get very confusing sometimes, in particular when it

@@ -61,7 +61,7 @@ You can also use the menu on the left to quickly skip over sections.
     :caption: Concepts
 
     concepts/api-driven
-    concepts/edge
+    concepts/edge-computing
 
 .. toctree::
     :hidden:
