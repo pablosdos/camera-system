@@ -1,5 +1,5 @@
 ======================
-String-based Debugging
+API-driven
 ======================
 
 Debugging is *really* important. Telegram's API is really big and there

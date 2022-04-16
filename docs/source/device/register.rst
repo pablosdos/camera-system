@@ -1,7 +1,7 @@
 .. _installation:
 
 ============
-Installation
+Register
 ============
 
 Telethon is a Python library, which means you need to download and install

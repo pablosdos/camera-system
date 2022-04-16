@@ -1,5 +1,5 @@
 ===========
-Quick-Start
+Use
 ===========
 
 Let's see a longer example to learn some of the methods that the library

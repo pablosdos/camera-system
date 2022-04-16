@@ -1,7 +1,7 @@
 .. _chats-channels:
 
 =================
-Chats vs Channels
+Edge
 =================
 
 Telegram's raw API can get very confusing sometimes, in particular when it
