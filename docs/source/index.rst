@@ -45,13 +45,10 @@ You can also use the menu on the left to quickly skip over sections.
 
 .. toctree::
     :hidden:
-    :caption: First Steps
+    :caption: Device
 
-    basic/installation
-    basic/signing-in
-    basic/quick-start
-    basic/updates
-    basic/next-steps
+    device/register
+    device/use
 
 .. toctree::
     :hidden:
