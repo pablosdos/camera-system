@@ -39,3 +39,32 @@ html_theme_options = {
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+Contents
+--------
+
+.. toctree::
+    :hidden:
+    :caption: Device
+
+    device/register
+    device/use
+
+.. toctree::
+    :hidden:
+    :caption: Deployment
+
+    deployment/device
+
+.. toctree::
+    :hidden:
+    :caption: Concepts
+
+    concepts/edge computing
+    concepts/api-driven
+
+.. toctree::
+    :hidden:
+    :caption: Developing
+
+    developing/AWS rollout
