@@ -17,8 +17,27 @@ Contents
 --------
 
 .. toctree::
+    :hidden:
+    :caption: Device
 
-   usage
-   api
+    device/register
+    device/use
 
-Lumache has its documentation hosted on Read the Docs.
+.. toctree::
+    :hidden:
+    :caption: Deployment
+
+    deployment/device
+
+.. toctree::
+    :hidden:
+    :caption: Concepts
+
+    concepts/edge computing
+    concepts/api-driven
+
+.. toctree::
+    :hidden:
+    :caption: Developing
+
+    developing/AWS rollout
