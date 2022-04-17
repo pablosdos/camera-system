@@ -32,7 +32,7 @@ Create API as follows and integrate endpoints to Lambda functions. Roles allowed
     info:
       version: "2022-04-15T20:12:26Z"
       title: "restruu"
-    host: "n8zauic1l6.execute-api.eu-central-1.amazonaws.com"
+    host: "<camera-system>"
     basePath: "/V1"
     schemes:
     - "https"
