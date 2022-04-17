@@ -31,7 +31,7 @@ Create API as follows and integrate endpoints to Lambda functions. Roles allowed
     swagger: "2.0"
     info:
       version: "2022-04-15T20:12:26Z"
-      title: "restruu"
+      title: "<camera-system>"
     host: "<camera-system>"
     basePath: "/V1"
     schemes:
