@@ -4,6 +4,6 @@
 Edge Computing
 =================
 
-`edge`_.
+`Edge Computing`_.
 
-.. edge: https://de.wikipedia.org/wiki/Edge_Computing
+.. Edge Computing: https://de.wikipedia.org/wiki/Edge_Computing
