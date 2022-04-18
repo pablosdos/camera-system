@@ -1,8 +1,26 @@
 ============
-AWS rollout
+Run locally
 ============
 
-Camera system can be deployed on Amazon Web Services.
+Telegram Bot
+===============================
+
+Use shell commands as follows to create and run Telegram Bot:
+
+.. code-block:: sh
+
+    cd /path/to/project-directory
+    cp .env-dev .env
+
+
+Create Telegram Bot and paste API key to .env-file. Create Venv, install dependencies and run the bot:
+
+.. code-block:: sh
+
+    cd /path/to/project-directory
+    pipenv shell
+    pipenv install
+    pipenv run python client/bots/TelegramBotDev/main.py
 
 
 Requirements
@@ -17,7 +35,7 @@ AWS IAM User with following permissions
 Lambda
 ===============================
 
-Create Lambda functions EvaluateMessage, ReceiveImage (set environment variable "TZ":"Europe/Berlin") and TelegramBot (create Layer with required dependencies) with roles assigned, permitted to use DynamoDB. 
+Create Lambda functions EvaluateMessage, ReceiveImage (set environment variable "TZ":"Europe/Berlin") and TelegramBot (create Layer with required dependencies) with roles assigned, permitted to use DynamoDB.
 
 
 API Gateway
