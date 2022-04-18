@@ -17,7 +17,7 @@ AWS IAM User with following permissions
 Lambda
 ===============================
 
-Create Lambda functions EvaluateMessage, ReceiveImage and TelegramBot with roles assigned, permitted to use DynamoDB.
+Create Lambda functions EvaluateMessage, ReceiveImage (set environment variable "TZ":"Europe/Berlin") and TelegramBot with roles assigned, permitted to use DynamoDB.
 
 
 API Gateway
@@ -129,7 +129,7 @@ Create API as follows and integrate endpoints to Lambda functions. Roles allowed
 S3
 ===============================
 
-Create S3-Bucket.
+Create S3-Bucket for images (trigger for Lambda function ReceiveImage for PUT) and artifacts.
 
 
 DynamoDB
@@ -141,4 +141,4 @@ Create DynamoDB table.
 Greengrass
 ===============================
 
-Create Deployment for IntervalSender.
+Create Core Device, Component and Deployment (on Core Device) for IntervalSender. Use Artifact from S3 Bucket.

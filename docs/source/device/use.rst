@@ -2,6 +2,16 @@
 Use
 ===========
 
+You can control your camera-system-devices using different apps.
+
+Telegram
+===============================
+
+Search for CameraSystemDeviceBot. Request status typing "/status".
+
+
+
+
 Let's see a longer example to learn some of the methods that the library
 has to offer. These are known as "friendly methods", and you should always
 use these if possible.
