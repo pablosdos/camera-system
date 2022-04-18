@@ -6,7 +6,7 @@ Camera-System's Documentation
 What is this?
 -------------
 
-Distributed System (cameras).
+Distributed system (cameras).
 
 
 How should I use the documentation?
